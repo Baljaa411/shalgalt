@@ -13,7 +13,7 @@ const Red = () =>{
     ]
     return(
         <div>
-            text.map((amjilt);
+            {text.map(text)};
             <div className="map">
                  <img src={text.img} alt="" />
                 <p>{text.title}</p>

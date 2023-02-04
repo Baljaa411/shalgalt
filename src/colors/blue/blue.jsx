@@ -12,12 +12,14 @@ const Blue = () =>{
     ]
     return(
         <div>
-            text.map()
-            <div className="maper">
-                <img src={text.img} alt="" />
-                <p>{text.title}</p>
-            </div>
+        {text.map(text)};
+        <div className="map">
+             <img src={text.img} alt="" />
+            <p>{text.title}</p>
+            <p>{text.title}</p>
+            <p>{text.title}</p>
         </div>
+    </div>
     )
 }
 
